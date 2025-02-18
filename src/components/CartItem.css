@@ -1,0 +1,24 @@
+.cartItem_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 0.5rem
+}
+
+.cartItem_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem_left>img {
+    width:100px;
+}
+
+.cartItem_right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
