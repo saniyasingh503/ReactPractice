@@ -1,7 +1,8 @@
 interface Product {
     id: number,
-    name: String,
-    unitprice: number
+    title: String,
+    image: string,
+    price: number
 }
 
 export default Product;

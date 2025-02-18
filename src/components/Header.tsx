@@ -1,6 +1,7 @@
 import { useContext, useEffect } from "react";
 import Button from "./Button"; 
 import { ThemeContext } from "../App"; 
+import Search from "./Search";
 
 export default function Header() {
     const { theme, toggleTheme } = useContext(ThemeContext);
